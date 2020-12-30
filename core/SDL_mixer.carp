@@ -1,4 +1,4 @@
-(system-include "SDL2/SDL_mixer.h")
+(system-include "SDL_mixer.h")
 (add-pkg "SDL2_mixer")
 (Project.config "cflag" "-Wno-incompatible-pointer-types-discards-qualifiers")
 

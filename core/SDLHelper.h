@@ -2,7 +2,7 @@
 #define Uint16 SDLUint16
 #define Uint32 SDLUint32
 #define Uint64 SDLUint64
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #undef Uint8
 #undef Uint16
 #undef Uint32

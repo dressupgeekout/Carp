@@ -29,6 +29,7 @@
 (defn draw [app rend state-ref]
   (let [rect (SDL.rect 32 32 (- 512 64) (- 512 64))]
     (do
+      (println "DRAW")
       (SDL.set-render-draw-blend-mode rend SDL.blend-mode-add)
       (SDL.set-render-draw-color rend 0 0 0 255)
       (SDL.render-clear rend)

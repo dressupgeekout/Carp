@@ -1,5 +1,5 @@
 (posix-only
- (system-include "SDL2/SDL_image.h")
+ (system-include "SDL_image.h")
  (add-pkg "SDL2_image"))
 
 (windows-only

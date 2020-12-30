@@ -1,4 +1,4 @@
-(system-include "SDL2/SDL2_gfxPrimitives.h")
+(system-include "SDL2_gfxPrimitives.h")
 (add-pkg "SDL2_gfx")
 
 (defmodule GFX
