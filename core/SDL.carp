@@ -331,7 +331,7 @@
     (let [win NULL
           ren NULL]
       (do (SDL.init SDL.INIT_EVERYTHING)
-          (SDL.Hint.set SDL.Hint.render-vsync (cstr "1"))
+          ;;(SDL.Hint.set SDL.Hint.render-vsync (cstr "1"))
           (SDL.create-window-and-renderer width height (bit-or SDL.WindowFlags.window-shown SDL.WindowFlags.window-resizable) (address win) (address ren))
           (SDL.set-window-title win (cstr title))
           (SDLApp.init win ren 60))))
